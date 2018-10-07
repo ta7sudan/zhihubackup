@@ -99,10 +99,11 @@ function scroll(y) {
 	await zhuanlan(browser, page, 1);
 	await zhuanlan(browser, page, 2);
 
-	for (let i = 1; i <= 32; ++i) {
+	for (let i = 1; i <= 32;) {
 		try {
 			await answer(browser, page, i);
 			await sleep(5000);
+			++i
 		} catch (err) {
 			console.error(err.message);
 			console.log(`page: ${i}, 下次请从这里开始`);
