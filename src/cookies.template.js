@@ -1,0 +1,91 @@
+module.exports = [{
+	name: '_xsrf',
+	value: '',
+	domain: '.zhihu.com',
+	url: 'https://www.zhihu.com',
+	path: '/',
+	expires: 1615557012,
+	httpOnly: false,
+	secure: false
+}, {
+	name: '_zap',
+	value: '',
+	domain: '.zhihu.com',
+	url: 'https://www.zhihu.com',
+	path: '/',
+	expires: 1600873552,
+	httpOnly: false,
+	secure: false
+}, {
+	name: 'cap_id',
+	value: '',
+	domain: '.zhihu.com',
+	url: 'https://www.zhihu.com',
+	path: '/',
+	expires: 1640392156,
+	httpOnly: false,
+	secure: false
+}, {
+	name: 'capsion_ticket',
+	value: '',
+	domain: '.zhihu.com',
+	url: 'https://www.zhihu.com',
+	path: '/',
+	expires: 1640393557,
+	httpOnly: true,
+	secure: false
+}, {
+	name: 'd_c0',
+	value: '',
+	domain: '.zhihu.com',
+	url: 'https://www.zhihu.com',
+	path: '/',
+	expires: 1632409555,
+	httpOnly: false,
+	secure: false
+}, {
+	name: 'l_cap_id',
+	value: '',
+	domain: '.zhihu.com',
+	url: 'https://www.zhihu.com',
+	path: '/',
+	expires: 1640392156,
+	httpOnly: false,
+	secure: false
+}, {
+	name: 'q_c1',
+	value: '',
+	domain: '.zhihu.com',
+	url: 'https://www.zhihu.com',
+	path: '/',
+	expires: 1632409559,
+	httpOnly: false,
+	secure: false
+}, {
+	name: 'r_cap_id',
+	value: '',
+	domain: '.zhihu.com',
+	url: 'https://www.zhihu.com',
+	path: '/',
+	expires: 1640392156,
+	httpOnly: false,
+	secure: false
+}, {
+	name: 'z_c0',
+	value: '',
+	domain: '.zhihu.com',
+	url: 'https://www.zhihu.com',
+	path: '/',
+	expires: 1653353558,
+	httpOnly: true,
+	secure: false
+}, {
+	name: 'tgw_l7_route',
+	value: '',
+	domain: 'www.zhihu.com',
+	url: 'https://www.zhihu.com',
+	path: '/',
+	expires: 1638890278,
+	httpOnly: false,
+	secure: false
+}];
