@@ -22,10 +22,10 @@ async function zhuanlan(browser, page, p) {
 		}
 		const np = await browser.newPage();
 		await np.goto(article.url);
-		await sleep(2000);
+		await sleep(rand(1, 5) * 1000);
 		for (let i = 0; i < 10; ++i) {
 			await np.evaluate(scroll(i * 800));
-			await sleep(rand(1, 5) * 1000);
+			await sleep(2000);
 		}
 		try {
 			await np.pdf({
@@ -51,6 +51,10 @@ function getAllAnswerAndURL() {
 
 async function answer(browser, page, p) {
 	await page.goto(`https://www.zhihu.com/people/canto_ostinato/answers?page=${p}`);
+	for (let i = 0; i < 10; ++i) {
+		await page.evaluate(scroll(i * 800));
+		await sleep(2000);
+	}
 	const answers = await page.evaluate(getAllAnswerAndURL);
 	for (const answer of answers) {
 		const file = `./answers/${answer.title.replace(/[?:/*<>"|\s]/g, '')}.pdf`;
