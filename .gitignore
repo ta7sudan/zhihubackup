@@ -60,6 +60,7 @@ typings/
 # next.js build output
 .next
 
-answers/*.pdf
-articles/*.pdf
+# answers/*.pdf
+# articles/*.pdf
 src/cookies.js
+zhihubackup.zip
